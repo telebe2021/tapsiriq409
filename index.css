@@ -14,6 +14,7 @@ nav{
     /* background-color: rgb(137, 156, 150); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
+    font-size: x-large;
 }
 .navdiv{
 
@@ -33,7 +34,7 @@ nav .grid{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:25px;
+    gap:50px;
 }
  nav .sag{
 
@@ -93,13 +94,80 @@ section{
 .img{
     width:30%;
     height: 350px;
-  
     border-radius:12px;
 }
 .img img{
     width:100%;
     height:100%;
-   
     border-radius:12px;
     object-fit: cover;
+    transition: all 0.7s;
+}
+.img img:hover{
+transform: scale(1.1);
+border-radius: 12px;
+overflow: hidden;
+}
+.sediv{
+width:100%;
+height: 400px;
+background-image: url(https://obstanovka.club/uploads/posts/2023-04/1681347524_obstanovka-club-p-temnii-ofis-vkontakte-39.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.sediv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+    padding: 20px;
+}
+.harm{  
+    /* padding: 50px; */
+    width: 100%;
+    height: 450px;
+    /* background-color: rgb(22, 22, 131); */
+    /* flex-direction: column; */
+    gap:30px ;
+}
+.ban{
+    width: 100%; 
+    height: 500px;
+     display: flex;
+   justify-content:center;
+    align-items: center;
+    /* background-color: rgb(48, 100, 112); */
+    gap:25px ;
+    border-radius: 12px;
+}
+.img1{
+    width:35%;
+    height: 500px;
+    border-radius:12px;
+    display: flex;
+    /* justify-content:center; */
+    flex-direction: column;
+    /* align-items: center; */
+    gap:20px;
+    padding-top: 70px;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+
+}
+.img1 img{
+    width:100%;
+    height:50%;
+    border-radius:12px;
+    object-fit: cover;
+    transition: all 0.7s;
+}
+.img1 img:hover{
+transform: scale(1.1);
+border-radius: 12px;
+overflow: hidden;
 }
